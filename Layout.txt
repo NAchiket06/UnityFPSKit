@@ -1,0 +1,50 @@
+Base Objective: 
+Destroy 3 Hearts and Proceed to the brain room to destroy the brain.
+
+Player: (100 health,max 50 bullet capacity)
+Has 2 ranged weapons that can shoot bullets.
+	1. Pistol: Single Rate of fire. High Damage.
+	2. Auto rifle: High Rate of fire. Low damage
+Bullets are a part of pickable pool along with health pills.
+
+Pickables/ Enemy Drops:
+Every enemy killed has a small chance to drop health and bullets from players(50% bullets, 10%health).
+
+	Bullets: Same bullets for both the weapons.
+	Each drop has 10 bullets. 
+
+	Health: Each health drop will increase the player health by 10.
+
+
+Each heart room will be locked and will require a key to be opened.
+Keys will be obtained by defeating boss's.
+
+Every boss room will have the following mechanism:
+1. A boss the player has to kill.
+2. Spawners that will spawn small enemies at regular intervals.
+		
+		There will be 2 types of boss-  the heart and the brain.
+		Boss have the following abilitieS:
+		1. Ranged ability to shoot the player.
+		2. Shield to protect itself from damage
+		3. Ability to spawn minions
+		4. Large Health
+		
+		Spawners will be stuck on the wall and have the following proprty:
+		1. Spawn small enemies.
+		2. Can be destroyed by the player
+		3. if destroyed, will be deactivated for a small time and be unable to spawn enemies.
+		4. Get reactivated after a certain time if destroyed.
+		5. Only destroyed if the boss is killed.
+
+
+Apart from the spawner in main rooms, there will also be spawners scattered across the map which have the same
+properties as that of regular spawners.
+
+Types of small enemies:
+	
+	1. Germ Slime: Follow player and if it hits the player, it explodes and player takes damage.
+	2. Germ Spike: Stationary on the ground and if player touches it, player takes damage. Can be shot to destroy.
+	3. Germ Slime_2: Ranged enemy that will throw projectile at the enemy.
+	4. Polluted blood cell: Has the ability to poison player if it touches the player.
+	
